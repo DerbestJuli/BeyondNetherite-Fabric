@@ -19,51 +19,34 @@ public class ModItemTagsProvider extends FabricTagsProvider.ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.@NonNull Provider lookup) {
-        valueLookupBuilder(ModTags.Items.GLAZED_TERRACOTTAS)
-                .add(Items.BLACK_GLAZED_TERRACOTTA)
-                .add(Items.GRAY_GLAZED_TERRACOTTA)
-                .add(Items.GREEN_GLAZED_TERRACOTTA)
-                .add(Items.BLUE_GLAZED_TERRACOTTA)
-                .add(Items.BROWN_GLAZED_TERRACOTTA)
-                .add(Items.CYAN_GLAZED_TERRACOTTA)
-                .add(Items.LIGHT_BLUE_GLAZED_TERRACOTTA)
-                .add(Items.LIGHT_GRAY_GLAZED_TERRACOTTA)
-                .add(Items.LIME_GLAZED_TERRACOTTA)
-                .add(Items.MAGENTA_GLAZED_TERRACOTTA)
-                .add(Items.ORANGE_GLAZED_TERRACOTTA)
-                .add(Items.PINK_GLAZED_TERRACOTTA)
-                .add(Items.PURPLE_GLAZED_TERRACOTTA)
-                .add(Items.WHITE_GLAZED_TERRACOTTA)
-                .add(Items.RED_GLAZED_TERRACOTTA)
-                .add(Items.YELLOW_GLAZED_TERRACOTTA);
-        valueLookupBuilder(ModTags.Items.PURPURIT).add(ModItems.PURPURIT);
+        tag(ModTags.Items.PURPURIT).add(ModItems.PURPURIT.builtInRegistryHolder().key());
         //Tools
-        valueLookupBuilder(ItemTags.SWORDS).add(ModItems.PURPURIT_SWORD);
-        valueLookupBuilder(ItemTags.AXES).add(ModItems.PURPURIT_AXE);
-        valueLookupBuilder(ItemTags.PICKAXES).add(ModItems.PURPURIT_PICKAXE);
-        valueLookupBuilder(ItemTags.SHOVELS).add(ModItems.PURPURIT_SHOVEL);
-        valueLookupBuilder(ItemTags.HOES).add(ModItems.PURPURIT_HOE);
-        valueLookupBuilder(ItemTags.SPEARS).add(ModItems.PURPURIT_SPEAR);
-        valueLookupBuilder(ItemTags.MELEE_WEAPON_ENCHANTABLE)
-                .add(ModItems.PURPURIT_SPEAR)
-                .add(ModItems.PURPURIT_SWORD)
-                .add(ModItems.PURPURIT_AXE);
-        valueLookupBuilder(ItemTags.MINING_ENCHANTABLE)
-                .add(ModItems.PURPURIT_PICKAXE)
-                .add(ModItems.PURPURIT_AXE)
-                .add(ModItems.PURPURIT_SHOVEL)
-                .add(ModItems.PURPURIT_HOE);
+        tag(ItemTags.SWORDS).add(ModItems.PURPURIT_SWORD.builtInRegistryHolder().key());
+        tag(ItemTags.AXES).add(ModItems.PURPURIT_AXE.builtInRegistryHolder().key());
+        tag(ItemTags.PICKAXES).add(ModItems.PURPURIT_PICKAXE.builtInRegistryHolder().key());
+        tag(ItemTags.SHOVELS).add(ModItems.PURPURIT_SHOVEL.builtInRegistryHolder().key());
+        tag(ItemTags.HOES).add(ModItems.PURPURIT_HOE.builtInRegistryHolder().key());
+        tag(ItemTags.SPEARS).add(ModItems.PURPURIT_SPEAR.builtInRegistryHolder().key());
+        tag(ItemTags.MELEE_WEAPON_ENCHANTABLE)
+                .add(ModItems.PURPURIT_SPEAR.builtInRegistryHolder().key())
+                .add(ModItems.PURPURIT_SWORD.builtInRegistryHolder().key())
+                .add(ModItems.PURPURIT_AXE.builtInRegistryHolder().key());
+        tag(ItemTags.MINING_ENCHANTABLE)
+                .add(ModItems.PURPURIT_PICKAXE.builtInRegistryHolder().key())
+                .add(ModItems.PURPURIT_AXE.builtInRegistryHolder().key())
+                .add(ModItems.PURPURIT_SHOVEL.builtInRegistryHolder().key())
+                .add(ModItems.PURPURIT_HOE.builtInRegistryHolder().key());
         //Armor
-        valueLookupBuilder(ItemTags.HEAD_ARMOR).add(ModItems.PURPURIT_HELMET);
-        valueLookupBuilder(ItemTags.CHEST_ARMOR).add(ModItems.PURPURIT_CHESTPLATE);
-        valueLookupBuilder(ItemTags.LEG_ARMOR).add(ModItems.PURPURIT_LEGGINGS);
-        valueLookupBuilder(ItemTags.FOOT_ARMOR).add(ModItems.PURPURIT_BOOTS);
-        valueLookupBuilder(ItemTags.TRIMMABLE_ARMOR)
-                .add(ModItems.PURPURIT_HELMET)
-                .add(ModItems.PURPURIT_CHESTPLATE)
-                .add(ModItems.PURPURIT_LEGGINGS)
-                .add(ModItems.PURPURIT_BOOTS);
-        valueLookupBuilder(ItemTags.ARMOR_ENCHANTABLE).add(ModItems.PURPURIT_HORSE_ARMOR);
-        valueLookupBuilder(ItemTags.ARMOR_ENCHANTABLE).add(ModItems.PURPURIT_NAUTILUS_ARMOR);
+        tag(ItemTags.HEAD_ARMOR).add(ModItems.PURPURIT_HELMET.builtInRegistryHolder().key());
+        tag(ItemTags.CHEST_ARMOR).add(ModItems.PURPURIT_CHESTPLATE.builtInRegistryHolder().key());
+        tag(ItemTags.LEG_ARMOR).add(ModItems.PURPURIT_LEGGINGS.builtInRegistryHolder().key());
+        tag(ItemTags.FOOT_ARMOR).add(ModItems.PURPURIT_BOOTS.builtInRegistryHolder().key());
+        tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.PURPURIT_HELMET.builtInRegistryHolder().key())
+                .add(ModItems.PURPURIT_CHESTPLATE.builtInRegistryHolder().key())
+                .add(ModItems.PURPURIT_LEGGINGS.builtInRegistryHolder().key())
+                .add(ModItems.PURPURIT_BOOTS.builtInRegistryHolder().key());
+        tag(ItemTags.ARMOR_ENCHANTABLE).add(ModItems.PURPURIT_HORSE_ARMOR.builtInRegistryHolder().key());
+        tag(ItemTags.ARMOR_ENCHANTABLE).add(ModItems.PURPURIT_NAUTILUS_ARMOR.builtInRegistryHolder().key());
     }
 }

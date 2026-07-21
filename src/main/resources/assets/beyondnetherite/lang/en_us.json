@@ -24,5 +24,6 @@
   "block.beyondnetherite.smelter_workbench": "Smelter",
 
   "creativetab.beyondnetherite.beyondnetherite_items": "Beyond Netherite Items",
-  "container.smelter_workbench": "Smelter"
+  "container.smelter_workbench": "Smelter",
+  "trim_material.beyondnetherite.purpurit": "Purpurit"
 }

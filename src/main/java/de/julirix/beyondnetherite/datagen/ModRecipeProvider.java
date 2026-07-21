@@ -61,7 +61,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .pattern("AAA")
                         .pattern("ABA")
                         .pattern("CCC")
-                        .define('A', ModTags.Items.GLAZED_TERRACOTTAS)
+                        .define('A', ItemTags.GLAZED_TERRACOTTA)
                         .define('B', Items.BLAST_FURNACE)
                         .define('C', Items.NETHERITE_INGOT)
                         .unlockedBy(getHasName(ModItems.PURPURIT_PARTICALS), has(ModItems.PURPURIT_PARTICALS))
