@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "purpurit",
+  "key": {
+    "A": "#beyondnetherite:glazed_terracottas",
+    "B": "minecraft:blast_furnace",
+    "C": "minecraft:netherite_ingot"
+  },
+  "pattern": [
+    "AAA",
+    "ABA",
+    "CCC"
+  ],
+  "result": {
+    "id": "beyondnetherite:smelter_workbench"
+  }
+}

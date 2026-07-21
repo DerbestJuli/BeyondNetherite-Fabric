@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "beyondnetherite:purpurit",
+  "base": "minecraft:netherite_shovel",
+  "result": {
+    "id": "beyondnetherite:purpurit_shovel"
+  },
+  "template": "beyondnetherite:purpurit_template"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "purpurit",
+  "key": {
+    "A": "beyondnetherite:purpurit_particals",
+    "B": "minecraft:netherite_ingot",
+    "C": "minecraft:end_stone"
+  },
+  "pattern": [
+    "ACA",
+    "ABA",
+    "AAA"
+  ],
+  "result": {
+    "id": "beyondnetherite:purpurit_template"
+  }
+}

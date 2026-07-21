@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "beyondnetherite:item/purpurit_nautilus_armor"
+  }
+}

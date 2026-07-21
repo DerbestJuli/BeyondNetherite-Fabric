@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "beyondnetherite:purpurit",
+  "base": "minecraft:netherite_leggings",
+  "result": {
+    "id": "beyondnetherite:purpurit_leggings"
+  },
+  "template": "beyondnetherite:purpurit_template"
+}

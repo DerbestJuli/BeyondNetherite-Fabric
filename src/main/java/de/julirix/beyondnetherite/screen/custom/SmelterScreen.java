@@ -16,9 +16,9 @@ public class SmelterScreen extends AbstractContainerScreen<SmelterMenu> {
             BeyondNetherite.id("textures/gui/arrow_progress.png");
 
     public SmelterScreen(SmelterMenu menu, Inventory inventory, Component title) {
-        super(menu, inventory, title);
-        this.inventoryLabelY = 114 - SmelterMenu.offset;
-        this.titleLabelY = 8 - SmelterMenu.offset;
+        super(menu, inventory, title, 175, 208);
+        this.inventoryLabelY = 114;
+        this.titleLabelY = 8;
     }
 
     @Override
@@ -26,7 +26,7 @@ public class SmelterScreen extends AbstractContainerScreen<SmelterMenu> {
         super.extractBackground(graphics, mouseX, mouseY, a);
 
         int x = this.leftPos;
-        int y = this.topPos - SmelterMenu.offset;
+        int y = this.topPos;
 
         graphics.blit(RenderPipelines.GUI_TEXTURED, GUI_TEXTURE, x, y,
                 0.0F, 0.0F, 175, 208, 256, 256); //GUI render

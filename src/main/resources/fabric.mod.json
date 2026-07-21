@@ -18,6 +18,9 @@
 		"main": [
 			"de.julirix.beyondnetherite.BeyondNetherite"
 		],
+		"client": [
+			"de.julirix.beyondnetherite.BeyondNetheriteClient"
+		],
 		"fabric-datagen": [
 			"de.julirix.beyondnetherite.BeyondNetheriteDataGenerator"
 		]

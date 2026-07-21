@@ -1,5 +1,6 @@
 package de.julirix.beyondnetherite.screen.custom;
 
+import de.julirix.beyondnetherite.BeyondNetherite;
 import de.julirix.beyondnetherite.block.ModBlocks;
 import de.julirix.beyondnetherite.block.entity.SmelterBlockEntity;
 import de.julirix.beyondnetherite.item.ModItems;
@@ -18,7 +19,6 @@ public class SmelterMenu extends AbstractContainerMenu {
     public final SmelterBlockEntity blockEntity;
     private final Level level;
     private final ContainerData data;
-    public static final int offset = 20;
 
     // Wird von ExtendedScreenHandlerType aufgerufen, extraData ist bereits zur BlockPos decodiert
     public SmelterMenu(int pContainerId, Inventory inv, BlockPos pos) {
@@ -37,28 +37,28 @@ public class SmelterMenu extends AbstractContainerMenu {
         int slotIndex = 0;
 
         for (int i = 0; i < 3; i++) { //Top 3 Row
-            addIngredientSlot(slotIndex++, 44 + i * 18, 21 - offset);
+            addIngredientSlot(slotIndex++, 44 + i * 18, 21);
         }
         for (int i = 0; i < 5; i++) { // Reihe 1
-            addIngredientSlot(slotIndex++, 26 + i * 18, 39 - offset);
+            addIngredientSlot(slotIndex++, 26 + i * 18, 39);
         }
         for (int i = 0; i < 5; i++) { // Reihe 2
-            addIngredientSlot(slotIndex++, 26 + i * 18, 57 - offset);
+            addIngredientSlot(slotIndex++, 26 + i * 18, 57);
         }
         for (int i = 0; i < 5; i++) { // Reihe 3
-            addIngredientSlot(slotIndex++, 26 + i * 18, 75 - offset);
+            addIngredientSlot(slotIndex++, 26 + i * 18, 75);
         }
         for (int i = 0; i < 3; i++) { //Bottom 3 Row
-            addIngredientSlot(slotIndex++, 44 + i * 18, 93 - offset);
+            addIngredientSlot(slotIndex++, 44 + i * 18, 93);
         }
 
-        this.addSlot(new Slot(blockEntity, 21, 122, 93 - offset) { // Fuel-Slot
+        this.addSlot(new Slot(blockEntity, 21, 122, 93) { // Fuel-Slot
             @Override
             public boolean mayPlace(@NonNull ItemStack itemStack) {
                 return itemStack.is(Items.LAVA_BUCKET);
             }
         });
-        this.addSlot(new Slot(blockEntity, 22, 149, 57 - offset) { // Output-Slot
+        this.addSlot(new Slot(blockEntity, 22, 149, 57) { // Output-Slot
             @Override
             public boolean mayPlace(@NonNull ItemStack itemStack) {
                 return false;
@@ -131,7 +131,7 @@ public class SmelterMenu extends AbstractContainerMenu {
     @Override
     public boolean stillValid(@NonNull Player player) {
         return stillValid(ContainerLevelAccess.create(level, blockEntity.getBlockPos()),
-                player, ModBlocks.SMELTER_WORKBENCH);
+               player, ModBlocks.SMELTER_WORKBENCH);
     }
 
     private void addIngredientSlot(int index, int x, int y) {
@@ -146,14 +146,14 @@ public class SmelterMenu extends AbstractContainerMenu {
     private void addPlayerInventory(Inventory playerInventory) {
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 9; j++) {
-                this.addSlot(new Slot(playerInventory, j + i * 9 + 9, 8 + j * 18, 127 + i * 18 - offset));
+                this.addSlot(new Slot(playerInventory, j + i * 9 + 9, 8 + j * 18, 127 + i * 18));
             }
         }
     }
 
     private void addPlayerHotbar(Inventory playerInventory) {
         for (int i = 0; i < 9; i++) {
-            this.addSlot(new Slot(playerInventory, i, 8 + i * 18, 185 - offset));
+            this.addSlot(new Slot(playerInventory, i, 8 + i * 18, 185));
         }
     }
 }

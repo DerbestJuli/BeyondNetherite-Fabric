@@ -1,0 +1,6 @@
+// 26.1.2	-999999999-01-01T00:00:00	BeyondNetherite/Tags for minecraft:block
+0ae9a1c89c7f4707a2dd1261c1295cc368dfab2d data/beyondnetherite/tags/block/incorrect_for_purpurit_tool.json
+46a7357b4a702d41b212cf8e36fd1ab9ade55eb0 data/beyondnetherite/tags/block/needs_purpurit_tool.json
+7fca67aad8d69cdb673f9474b688b170ec40456f data/fabric/tags/block/needs_tool_level_4.json
+fd3c4dd5d8597efe64dc576ca46f87ac872a1035 data/minecraft/tags/block/mineable/pickaxe.json
+06a936596d39280f4f2dfbc77bc3c89e797c0b10 data/minecraft/tags/block/needs_iron_tool.json

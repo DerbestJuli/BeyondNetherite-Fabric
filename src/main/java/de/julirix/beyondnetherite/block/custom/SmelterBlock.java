@@ -5,7 +5,6 @@ import de.julirix.beyondnetherite.block.entity.ModBlockEntities;
 import de.julirix.beyondnetherite.block.entity.SmelterBlockEntity;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
-import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.*;
 import net.minecraft.world.entity.player.Player;
@@ -62,10 +61,10 @@ public class SmelterBlock extends BaseEntityBlock {
     @Override
     protected @NonNull InteractionResult useItemOn(@NonNull ItemStack itemStack, @NonNull BlockState state, Level level, @NonNull BlockPos pos,
                                                    @NonNull Player player, @NonNull InteractionHand hand, @NonNull BlockHitResult hitResult) {
-        if(!level.isClientSide()) {
+        if (!level.isClientSide()) {
             BlockEntity entity = level.getBlockEntity(pos);
-            if(entity instanceof SmelterBlockEntity smelterBlockEntity) {
-                player.openMenu(new SimpleMenuProvider(smelterBlockEntity, Component.literal("Smelter")));
+            if (entity instanceof SmelterBlockEntity smelterBlockEntity) {
+                player.openMenu(smelterBlockEntity);
             } else {
                 throw new IllegalStateException("Our Container provider is missing!");
             }

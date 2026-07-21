@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "purpurit",
+  "key": {
+    "A": "minecraft:echo_shard",
+    "B": "minecraft:resin_brick",
+    "C": "minecraft:nether_star",
+    "D": "minecraft:netherite_ingot"
+  },
+  "pattern": [
+    "A A",
+    "BCB",
+    "DDD"
+  ],
+  "result": {
+    "id": "beyondnetherite:smasher_block"
+  }
+}

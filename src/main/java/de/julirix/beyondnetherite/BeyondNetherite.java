@@ -6,6 +6,7 @@ import de.julirix.beyondnetherite.creativemodetab.ModCreativeModeTabs;
 import de.julirix.beyondnetherite.item.ModItems;
 import de.julirix.beyondnetherite.screen.ModMenuTypes;
 import de.julirix.beyondnetherite.screen.custom.SmelterScreen;
+import de.julirix.beyondnetherite.worldgen.ModBiomeModifiers;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.core.BlockPos;
@@ -29,6 +30,8 @@ public class BeyondNetherite implements ModInitializer {
 
 		ModBlockEntities.registerModBlockEntities();
 		ModMenuTypes.registerModMenuTypes();
+
+		ModBiomeModifiers.bootstrap();
 	}
 
 	public static Identifier id(String path) {

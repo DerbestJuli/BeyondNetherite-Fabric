@@ -3,6 +3,7 @@ package de.julirix.beyondnetherite.block.entity;
 import de.julirix.beyondnetherite.block.custom.SmelterBlock;
 import de.julirix.beyondnetherite.item.ModItems;
 import de.julirix.beyondnetherite.screen.custom.SmelterMenu;
+import net.fabricmc.fabric.api.menu.v1.ExtendedMenuProvider;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.NonNullList;
@@ -11,10 +12,10 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.game.ClientboundBlockEntityDataPacket;
+import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.Container;
 import net.minecraft.world.ContainerHelper;
 import net.minecraft.world.Containers;
-import net.minecraft.world.MenuProvider;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.AbstractContainerMenu;
@@ -29,7 +30,7 @@ import net.minecraft.world.level.storage.ValueOutput;
 import org.jspecify.annotations.NonNull;
 import org.jspecify.annotations.Nullable;
 
-public class SmelterBlockEntity extends BlockEntity implements MenuProvider, Container {
+public class SmelterBlockEntity extends BlockEntity implements ExtendedMenuProvider<BlockPos>, Container {
 
     private static final int INPUT_SLOTS = 21; // Slots 0..20
     private static final int FUEL_SLOT = 21;
@@ -227,6 +228,11 @@ public class SmelterBlockEntity extends BlockEntity implements MenuProvider, Con
     @Override
     public @NonNull Component getDisplayName() {
         return Component.translatable("block.beyondnetherite.smelter_workbench");
+    }
+
+    @Override
+    public BlockPos getScreenOpeningData(ServerPlayer player) {
+        return this.getBlockPos();
     }
 
     @Override

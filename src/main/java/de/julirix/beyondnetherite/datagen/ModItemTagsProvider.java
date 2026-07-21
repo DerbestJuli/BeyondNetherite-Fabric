@@ -37,7 +37,6 @@ public class ModItemTagsProvider extends FabricTagsProvider.ItemTagsProvider {
                 .add(Items.RED_GLAZED_TERRACOTTA)
                 .add(Items.YELLOW_GLAZED_TERRACOTTA);
         valueLookupBuilder(ModTags.Items.PURPURIT).add(ModItems.PURPURIT);
-        valueLookupBuilder(ItemTags.TRIM_MATERIALS).add(ModItems.PURPURIT);
         //Tools
         valueLookupBuilder(ItemTags.SWORDS).add(ModItems.PURPURIT_SWORD);
         valueLookupBuilder(ItemTags.AXES).add(ModItems.PURPURIT_AXE);

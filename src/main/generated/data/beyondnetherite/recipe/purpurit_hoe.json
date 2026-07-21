@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "beyondnetherite:purpurit",
+  "base": "minecraft:netherite_hoe",
+  "result": {
+    "id": "beyondnetherite:purpurit_hoe"
+  },
+  "template": "beyondnetherite:purpurit_template"
+}

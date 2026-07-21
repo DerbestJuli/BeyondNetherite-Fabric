@@ -21,7 +21,7 @@ public class ModPlacedFeatures {
         var configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
 
         register(context, END_PURPURIT_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.END_PURPURIT_ORE_KEY),
-                ModOrePlacement.commenOrePlacement(5, HeightRangePlacement.triangle(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(80))));
+                ModOrePlacement.commenOrePlacement(5, HeightRangePlacement.triangle(VerticalAnchor.absolute(0), VerticalAnchor.absolute(80))));
     }
 
     private static ResourceKey<PlacedFeature> registerKey(String name) {
