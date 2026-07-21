@@ -1,0 +1,46 @@
+{
+  "variants": {
+    "facing=east,smelting=false": {
+      "model": "beyondnetherite:block/smelter_workbench",
+      "y": 90
+    },
+    "facing=east,smelting=true": {
+      "model": "beyondnetherite:block/smelter_workbench_on",
+      "y": 90
+    },
+    "facing=south,smelting=false": {
+      "model": "beyondnetherite:block/smelter_workbench",
+      "y": 180
+    },
+    "facing=south,smelting=true": {
+      "model": "beyondnetherite:block/smelter_workbench_on",
+      "y": 180
+    },
+    "facing=west,smelting=false": {
+      "model": "beyondnetherite:block/smelter_workbench",
+      "y": 270
+    },
+    "facing=west,smelting=true": {
+      "model": "beyondnetherite:block/smelter_workbench_on",
+      "y": 270
+    },
+    "facing=north,smelting=false": {
+      "model": "beyondnetherite:block/smelter_workbench"
+    },
+    "facing=north,smelting=true": {
+      "model": "beyondnetherite:block/smelter_workbench_on"
+    },
+    "facing=up,smelting=false": {
+    "model": "beyondnetherite:block/smelter_workbench"
+    },
+    "facing=up,smelting=true": {
+    "model": "beyondnetherite:block/smelter_workbench_on"
+    },
+    "facing=down,smelting=false": {
+    "model": "beyondnetherite:block/smelter_workbench"
+    },
+    "facing=down,smelting=true": {
+    "model": "beyondnetherite:block/smelter_workbench_on"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "item.beyondnetherite.purpurit": "Purpurit",
+  "item.beyondnetherite.raw_purpurit": "Raw Purpurit",
+  "item.beyondnetherite.purpurit_particals": "Purpurit Particals",
+  "item.beyondnetherite.purpurit_template": "Purpurit Template",
+
+  "item.beyondnetherite.purpurit_sword": "Purpurit Sword",
+  "item.beyondnetherite.purpurit_axe": "Purpurit Axe",
+  "item.beyondnetherite.purpurit_pickaxe": "Purpurit Pickaxe",
+  "item.beyondnetherite.purpurit_shovel": "Purpurit Shovel",
+  "item.beyondnetherite.purpurit_hoe": "Purpurit Hoe",
+  "item.beyondnetherite.purpurit_spear": "Purpurit Spear",
+  "item.beyondnetherite.purpurit_helmet": "Purpurit Helmet",
+  "item.beyondnetherite.purpurit_chestplate": "Purpurit Chestplate",
+  "item.beyondnetherite.purpurit_leggings": "Purpurit Leggings",
+  "item.beyondnetherite.purpurit_boots": "Purpurit Boots",
+  "item.beyondnetherite.purpurit_horse_armor": "Purpurit Horse Armor",
+  "item.beyondnetherite.purpurit_nautilus_armor": "Purpurit Nautilus Armor",
+
+  "block.beyondnetherite.purpurit_block": "Block of Purpurit",
+  "block.beyondnetherite.purpurit_end_ore": "Purpurit End Ore",
+  "block.beyondnetherite.altar_workbench": "Altar",
+  "block.beyondnetherite.smasher_block": "Smasher",
+  "block.beyondnetherite.smelter_workbench": "Smelter",
+
+  "creativetab.beyondnetherite.beyondnetherite_items": "Beyond Netherite Items",
+  "container.smelter_workbench": "Smelter"
+}

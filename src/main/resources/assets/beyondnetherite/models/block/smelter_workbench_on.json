@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "bottom": "beyondnetherite:block/smelter_workbench_bottom",
+    "front": "beyondnetherite:block/smelter_workbench_front_on",
+    "side": "beyondnetherite:block/smelter_workbench_side",
+    "top": "beyondnetherite:block/smelter_workbench_top"
+  }
+}

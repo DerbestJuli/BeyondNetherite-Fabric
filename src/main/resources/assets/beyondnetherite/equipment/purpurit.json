@@ -1,0 +1,29 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "beyondnetherite:purpurit"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "beyondnetherite:purpurit"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "beyondnetherite:purpurit"
+      }
+    ],
+    "horse_body": [
+      {
+        "texture": "beyondnetherite:purpurit"
+      }
+    ],
+    "nautilus_body": [
+      {
+        "texture": "beyondnetherite:purpurit"
+      }
+    ]
+  }
+}
