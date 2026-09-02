@@ -1,5 +1,5 @@
-// 26.1.2	-999999999-01-01T00:00:00	BeyondNetherite/Block Loot Tables
-2f9431ed97fa2d95161a64376f987b1ac203d9e6 data/beyondnetherite/loot_table/blocks/purpurit_block.json
-a4c2535ef20674d364a62190dc2ed77d3616a28c data/beyondnetherite/loot_table/blocks/purpurit_end_ore.json
-14c6aba7588f7fe29dfa03c61df8a044a6bc8b58 data/beyondnetherite/loot_table/blocks/smasher_block.json
-a2a5b70a3757ee1af7f14f0ae487455c217b9f7c data/beyondnetherite/loot_table/blocks/smelter_workbench.json
+// 26.2	-999999999-01-01T00:00:00	BeyondNetherite/Block Loot Tables
+07695c8b70e0c2b57ed7d9ff9d375c2356733427 data/beyondnetherite/loot_table/blocks/purpurit_block.json
+7f7459af4e7cf134735f56b7d8d33c41b5b2b47b data/beyondnetherite/loot_table/blocks/purpurit_end_ore.json
+be8334e0d30cebc6db2e77ea2efd7d487339a97c data/beyondnetherite/loot_table/blocks/smasher_block.json
+f064871eba26bbec50a8268b2b5267954364fe3f data/beyondnetherite/loot_table/blocks/smelter_workbench.json

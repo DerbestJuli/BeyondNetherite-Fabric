@@ -17,22 +17,22 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.@NonNull Provider provider) {
-        valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE)
-                .add(ModBlocks.PURPURIT_END_ORE)
-                .add(ModBlocks.PURPURIT_BLOCK)
-                .add(ModBlocks.SMELTER_WORKBENCH)
-                .add(ModBlocks.SMASHER_BLOCK);
+        tag(BlockTags.MINEABLE_WITH_PICKAXE)
+                .add(ModBlocks.PURPURIT_END_ORE.builtInRegistryHolder().key())
+                .add(ModBlocks.PURPURIT_BLOCK.builtInRegistryHolder().key())
+                .add(ModBlocks.SMELTER_WORKBENCH.builtInRegistryHolder().key())
+                .add(ModBlocks.SMASHER_BLOCK.builtInRegistryHolder().key());
 
-        valueLookupBuilder(ModTags.Blocks.NEEDS_NETHERITE_TOOL)
-                .add(ModBlocks.PURPURIT_END_ORE)
-                .add(ModBlocks.PURPURIT_BLOCK)
-                .add(ModBlocks.SMASHER_BLOCK);
-        valueLookupBuilder(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.SMELTER_WORKBENCH);
+        tag(ModTags.Blocks.NEEDS_NETHERITE_TOOL)
+                .add(ModBlocks.PURPURIT_END_ORE.builtInRegistryHolder().key())
+                .add(ModBlocks.PURPURIT_BLOCK.builtInRegistryHolder().key())
+                .add(ModBlocks.SMASHER_BLOCK.builtInRegistryHolder().key());
+        tag(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.SMELTER_WORKBENCH.builtInRegistryHolder().key());
 
-        valueLookupBuilder(ModTags.Blocks.NEEDS_PURPURIT_TOOL)
+        tag(ModTags.Blocks.NEEDS_PURPURIT_TOOL)
                 .addTag(ModTags.Blocks.NEEDS_NETHERITE_TOOL);
-        valueLookupBuilder(ModTags.Blocks.INCORRECT_FOR_PURPURIT_TOOL)
+        tag(ModTags.Blocks.INCORRECT_FOR_PURPURIT_TOOL)
                 .addOptionalTag(BlockTags.INCORRECT_FOR_NETHERITE_TOOL)
                 .addTag(ModTags.Blocks.NEEDS_PURPURIT_TOOL);
     }

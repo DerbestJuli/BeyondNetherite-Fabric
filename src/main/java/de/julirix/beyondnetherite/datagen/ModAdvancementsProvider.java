@@ -5,7 +5,6 @@ import de.julirix.beyondnetherite.block.ModBlocks;
 import de.julirix.beyondnetherite.item.ModItems;
 import de.julirix.beyondnetherite.util.ModTags;
 import net.minecraft.advancements.*;
-import net.minecraft.advancements.criterion.*;
 import net.minecraft.core.HolderGetter;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.HolderSet;
@@ -389,7 +388,6 @@ public class ModAdvancementsProvider extends AdvancementProvider {
                     )
                     .addCriterion("equip_horse_armor", PlayerInteractTrigger.TriggerInstance.itemUsedOnEntity(
                             ItemPredicate.Builder.item().of(items, ModItems.PURPURIT_HORSE_ARMOR),
-                            Optional.of(EntityPredicate.wrap(EntityPredicate.Builder.entity().of(entities, EntityType.HORSE).build()))))
                     .save(consumer, BeyondNetherite.MOD_ID + ":beyondnetherite/purpurithorsearmor");
 
             AdvancementHolder purpuritNautilusShell = Advancement.Builder.advancement()
@@ -405,7 +403,6 @@ public class ModAdvancementsProvider extends AdvancementProvider {
                     )
                     .addCriterion("equip_nautilus_armor", PlayerInteractTrigger.TriggerInstance.itemUsedOnEntity(
                             ItemPredicate.Builder.item().of(items, ModItems.PURPURIT_NAUTILUS_ARMOR),
-                            Optional.of(EntityPredicate.wrap(EntityPredicate.Builder.entity().of(entities, EntityType.NAUTILUS).build()))))
                     .save(consumer, BeyondNetherite.MOD_ID + ":beyondnetherite/purpuritnautilusshell");
 
         }
@@ -421,7 +418,6 @@ public class ModAdvancementsProvider extends AdvancementProvider {
                             )),
                             Optional.of(EntityPredicate.wrap(
                                     EntityPredicate.Builder.entity()
-                                            .of(entities, EntityType.ENDER_DRAGON)
                                             .build()
                             )),
                             Optional.empty()
@@ -455,7 +451,6 @@ public class ModAdvancementsProvider extends AdvancementProvider {
 
         private static Criterion<KilledTrigger.TriggerInstance> killMobWithSpearOnHorse(HolderGetter<Item> items, HolderGetter<EntityType<?>> entities) {
             EntityPredicate playerPredicate = EntityPredicate.Builder.entity()
-                    .vehicle(EntityPredicate.Builder.entity().of(entities, EntityType.HORSE))
                     .equipment(EntityEquipmentPredicate.Builder.equipment()
                             .mainhand(ItemPredicate.Builder.item().of(items, ModItems.PURPURIT_SPEAR.asItem()))
                             .build())

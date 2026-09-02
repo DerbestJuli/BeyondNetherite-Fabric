@@ -1,4 +1,4 @@
-// 26.1.2	-999999999-01-01T00:00:00	BeyondNetherite/BeyondNetherite Recipes
+// 26.2	-999999999-01-01T00:00:00	BeyondNetherite/BeyondNetherite Recipes
 d7cbba3f53bb7dd3ef5ce825e3c523fdf8b2c4c3 data/beyondnetherite/advancement/recipes/building_blocks/purpurit_block.json
 30fd9c987ebd6778245d79c9f754cb2ec1bd30ee data/beyondnetherite/advancement/recipes/building_blocks/smasher_block.json
 672fbb5241012bd3c0b52ba8425b9fefc8b784d7 data/beyondnetherite/advancement/recipes/building_blocks/smelter_workbench.json
@@ -17,7 +17,7 @@ b35c6e960470e32ae9972cc6025a1654fb83a112 data/beyondnetherite/advancement/recipe
 610603a2e5a26aee6456b409b860aa9acc1063ee data/beyondnetherite/advancement/recipes/misc/purpurit.json
 62df1f91367a0a98e0090ee34e63eceafa25ae02 data/beyondnetherite/advancement/recipes/misc/purpurit_trim.json
 39c27d416b900c3f09b9052cbf99c8e8e2e1e306 data/beyondnetherite/advancement/recipes/tools/purpurit_template.json
-00437bb82d4df6b5f573ef766efc162548ae43f5 data/beyondnetherite/recipe/purpurit.json
+ab1f31a338f46ce1b9135847926db77665d7206b data/beyondnetherite/recipe/purpurit.json
 c3fed675e4aea7a7ef13fae5231cfccf28f8e028 data/beyondnetherite/recipe/purpurit_axe.json
 9a6643ed8d7f40442d4a47c8f49955939ec1c78e data/beyondnetherite/recipe/purpurit_block.json
 56d0fc274b6af67f48de3467217f3c59507e413d data/beyondnetherite/recipe/purpurit_boots.json
@@ -34,4 +34,4 @@ d23ccebd4ff37e046c03c491ea3815fecac1f94c data/beyondnetherite/recipe/purpurit_sp
 9617ff329cfc657b91ddd83fc49b858075f8a579 data/beyondnetherite/recipe/purpurit_template.json
 f0c461e06089b0d6679ecb592ecb44aad0068dc6 data/beyondnetherite/recipe/purpurit_trim.json
 5df0b1b055d6766cb7f1b1bfe4c3c427efb67870 data/beyondnetherite/recipe/smasher_block.json
-84292a4892c7b10b0d9b6d5a11b2f44bf0076c65 data/beyondnetherite/recipe/smelter_workbench.json
+2b8010f77e255426469283542b031737a074352b data/beyondnetherite/recipe/smelter_workbench.json

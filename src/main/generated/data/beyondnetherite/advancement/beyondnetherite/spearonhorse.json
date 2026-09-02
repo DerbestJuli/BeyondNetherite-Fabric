@@ -8,13 +8,10 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "equipment": {
                 "mainhand": {
                   "items": "beyondnetherite:purpurit_spear"
                 }
               },
-              "vehicle": {
-                "type": "minecraft:horse"
               }
             }
           }

@@ -53,13 +53,6 @@ public class ModItemTagsProvider extends FabricTagsProvider.ItemTagsProvider {
                 .add(ModItems.PURPURIT_AXE)
                 .add(ModItems.PURPURIT_SHOVEL)
                 .add(ModItems.PURPURIT_HOE);
-        valueLookupBuilder(ModTags.Items.PURPURIT_TOOLS)
-                .add(ModItems.PURPURIT_SPEAR)
-                .add(ModItems.PURPURIT_SWORD)
-                .add(ModItems.PURPURIT_PICKAXE)
-                .add(ModItems.PURPURIT_AXE)
-                .add(ModItems.PURPURIT_SHOVEL)
-                .add(ModItems.PURPURIT_HOE);
         //Armor
         valueLookupBuilder(ItemTags.HEAD_ARMOR).add(ModItems.PURPURIT_HELMET);
         valueLookupBuilder(ItemTags.CHEST_ARMOR).add(ModItems.PURPURIT_CHESTPLATE);
