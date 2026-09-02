@@ -1,0 +1,32 @@
+{
+  "parent": "beyondnetherite:beyondnetherite/smasherblock",
+  "criteria": {
+    "has_purpuritParticals": {
+      "conditions": {
+        "items": [
+          {
+            "items": "beyondnetherite:purpurit_particals"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.beyondnetherite.purpuritParticals.discription"
+    },
+    "icon": {
+      "id": "beyondnetherite:purpurit_particals"
+    },
+    "title": {
+      "translate": "advancements.beyondnetherite.purpuritParticals.titel"
+    }
+  },
+  "requirements": [
+    [
+      "has_purpuritParticals"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

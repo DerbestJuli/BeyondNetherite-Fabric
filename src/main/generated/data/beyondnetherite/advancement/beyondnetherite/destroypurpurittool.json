@@ -1,0 +1,77 @@
+{
+  "parent": "beyondnetherite:beyondnetherite/fullpurpuritarmor",
+  "criteria": {
+    "purpuritAxe": {
+      "conditions": {
+        "item": {
+          "items": "beyondnetherite:purpurit_axe"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "purpuritHoe": {
+      "conditions": {
+        "item": {
+          "items": "beyondnetherite:purpurit_hoe"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "purpuritPickaxe": {
+      "conditions": {
+        "item": {
+          "items": "beyondnetherite:purpurit_pickaxe"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "purpuritShovel": {
+      "conditions": {
+        "item": {
+          "items": "beyondnetherite:purpurit_shovel"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "purpuritSpear": {
+      "conditions": {
+        "item": {
+          "items": "beyondnetherite:purpurit_spear"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "purpuritSword": {
+      "conditions": {
+        "item": {
+          "items": "beyondnetherite:purpurit_sword"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.beyondnetherite.destroyPurpuritTool.discription"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "id": "beyondnetherite:purpurit_axe"
+    },
+    "title": {
+      "translate": "advancements.beyondnetherite.destroyPurpuritTool.titel"
+    }
+  },
+  "requirements": [
+    [
+      "purpuritSword",
+      "purpuritAxe",
+      "purpuritPickaxe",
+      "purpuritShovel",
+      "purpuritHoe",
+      "purpuritSpear"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

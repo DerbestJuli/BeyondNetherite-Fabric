@@ -1,0 +1,39 @@
+{
+  "parent": "beyondnetherite:beyondnetherite/purpurit",
+  "criteria": {
+    "equip_nautilus_armor": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:nautilus"
+            }
+          }
+        ],
+        "item": {
+          "items": "beyondnetherite:purpurit_nautilus_armor"
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.beyondnetherite.purpuritNautilusShell.discription"
+    },
+    "icon": {
+      "id": "beyondnetherite:purpurit_nautilus_armor"
+    },
+    "title": {
+      "translate": "advancements.beyondnetherite.purpuritNautilusShell.titel"
+    }
+  },
+  "requirements": [
+    [
+      "equip_nautilus_armor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

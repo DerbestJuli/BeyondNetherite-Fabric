@@ -1,6 +1,7 @@
 // 26.1.2	-999999999-01-01T00:00:00	BeyondNetherite/Tags for minecraft:item
 eff525670c72b150bedd5fb033ca21e0baa84854 data/beyondnetherite/tags/item/glazed_terracottas.json
 68fba9c2642f4a8fa8ead4b45b087289d299fa99 data/beyondnetherite/tags/item/purpurit.json
+c472c21915630363fdfd21346fb8c236d2ee6f6b data/beyondnetherite/tags/item/purpurit_tools.json
 8639404df743bfed86204ae67da6c6a65e61b67e data/minecraft/tags/item/axes.json
 f8a8ac457393bb93b17d0724295118606187f936 data/minecraft/tags/item/chest_armor.json
 f4c74fc8485559d50a540d788dc72db77e256efb data/minecraft/tags/item/enchantable/armor.json
@@ -14,5 +15,4 @@ a2c5b45c1fb268fc6aae0ce6791f4cfcf4677ea2 data/minecraft/tags/item/head_armor.jso
 4011528655dfab3c23c892ca0b157c16c05af32e data/minecraft/tags/item/shovels.json
 48a153e69ec4a3f3c0672ca6e55ec2be1828239a data/minecraft/tags/item/spears.json
 0d421bc6512bfc7cfb68cc64510d3c3b98e573ce data/minecraft/tags/item/swords.json
-68fba9c2642f4a8fa8ead4b45b087289d299fa99 data/minecraft/tags/item/trim_materials.json
 22b3978a2cb41851c132ad4379c6f210f3b0fa23 data/minecraft/tags/item/trimmable_armor.json

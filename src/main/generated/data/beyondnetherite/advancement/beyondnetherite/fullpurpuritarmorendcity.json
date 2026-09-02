@@ -1,0 +1,52 @@
+{
+  "parent": "beyondnetherite:beyondnetherite/fullpurpuritarmor",
+  "criteria": {
+    "wearing_full_set_in_end_city": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "chest": {
+                  "items": "beyondnetherite:purpurit_chestplate"
+                },
+                "feet": {
+                  "items": "beyondnetherite:purpurit_boots"
+                },
+                "head": {
+                  "items": "beyondnetherite:purpurit_helmet"
+                },
+                "legs": {
+                  "items": "beyondnetherite:purpurit_leggings"
+                }
+              },
+              "location": {
+                "structures": "minecraft:end_city"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.beyondnetherite.fullPurpuritArmorEndCity.discription"
+    },
+    "icon": {
+      "id": "minecraft:purpur_block"
+    },
+    "title": {
+      "translate": "advancements.beyondnetherite.fullPurpuritArmorEndCity.titel"
+    }
+  },
+  "requirements": [
+    [
+      "wearing_full_set_in_end_city"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

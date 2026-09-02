@@ -1,0 +1,72 @@
+{
+  "parent": "beyondnetherite:beyondnetherite/purpurit",
+  "criteria": {
+    "purpuritBoots": {
+      "conditions": {
+        "items": [
+          {
+            "items": "beyondnetherite:purpurit_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "purpuritChestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "beyondnetherite:purpurit_chestplate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "purpuritHelmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "beyondnetherite:purpurit_helmet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "purpuritLeggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": "beyondnetherite:purpurit_leggings"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.beyondnetherite.fullPurpuritArmor.discription"
+    },
+    "frame": "challenge",
+    "icon": {
+      "id": "beyondnetherite:purpurit_helmet"
+    },
+    "title": {
+      "translate": "advancements.beyondnetherite.fullPurpuritArmor.titel"
+    }
+  },
+  "requirements": [
+    [
+      "purpuritHelmet"
+    ],
+    [
+      "purpuritChestplate"
+    ],
+    [
+      "purpuritLeggings"
+    ],
+    [
+      "purpuritBoots"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

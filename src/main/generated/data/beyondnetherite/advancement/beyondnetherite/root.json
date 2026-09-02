@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "has_purpurit": {
+      "conditions": {
+        "items": [
+          {
+            "items": "beyondnetherite:purpurit"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:gui/advancements/backgrounds/adventure",
+    "description": {
+      "translate": "advancements.beyondnetherite.root.discription"
+    },
+    "icon": {
+      "id": "beyondnetherite:purpurit"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.beyondnetherite.root.titel"
+    }
+  },
+  "requirements": [
+    [
+      "has_purpurit"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

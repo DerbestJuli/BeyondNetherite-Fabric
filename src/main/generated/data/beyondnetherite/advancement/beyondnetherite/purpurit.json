@@ -1,0 +1,32 @@
+{
+  "parent": "beyondnetherite:beyondnetherite/smelterworkbench",
+  "criteria": {
+    "has_purpurit": {
+      "conditions": {
+        "items": [
+          {
+            "items": "beyondnetherite:purpurit"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.beyondnetherite.purpurit.discription"
+    },
+    "icon": {
+      "id": "beyondnetherite:purpurit"
+    },
+    "title": {
+      "translate": "advancements.beyondnetherite.purpurit.titel"
+    }
+  },
+  "requirements": [
+    [
+      "has_purpurit"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

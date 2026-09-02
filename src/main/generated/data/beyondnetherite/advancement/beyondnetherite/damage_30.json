@@ -1,0 +1,45 @@
+{
+  "parent": "beyondnetherite:beyondnetherite/fullpurpuritarmor",
+  "criteria": {
+    "dealt_30_damage": {
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 30.0
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": "#beyondnetherite:purpurit_tools"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_hurt_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.beyondnetherite.damage30.discription"
+    },
+    "icon": {
+      "id": "beyondnetherite:purpurit_sword"
+    },
+    "title": {
+      "translate": "advancements.beyondnetherite.damage30.titel"
+    }
+  },
+  "requirements": [
+    [
+      "dealt_30_damage"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

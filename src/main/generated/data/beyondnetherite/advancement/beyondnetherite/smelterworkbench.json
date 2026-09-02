@@ -1,0 +1,32 @@
+{
+  "parent": "beyondnetherite:beyondnetherite/purpuritparticals",
+  "criteria": {
+    "has_smelterWorkbench": {
+      "conditions": {
+        "items": [
+          {
+            "items": "beyondnetherite:smelter_workbench"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.beyondnetherite.smelterWorkbench.discription"
+    },
+    "icon": {
+      "id": "beyondnetherite:smelter_workbench"
+    },
+    "title": {
+      "translate": "advancements.beyondnetherite.smelterWorkbench.titel"
+    }
+  },
+  "requirements": [
+    [
+      "has_smelterWorkbench"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

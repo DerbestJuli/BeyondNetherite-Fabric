@@ -1,0 +1,32 @@
+{
+  "parent": "beyondnetherite:beyondnetherite/root",
+  "criteria": {
+    "has_rawPurpurit": {
+      "conditions": {
+        "items": [
+          {
+            "items": "beyondnetherite:raw_purpurit"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.beyondnetherite.rawPurpurit.discription"
+    },
+    "icon": {
+      "id": "beyondnetherite:raw_purpurit"
+    },
+    "title": {
+      "translate": "advancements.beyondnetherite.rawPurpurit.titel"
+    }
+  },
+  "requirements": [
+    [
+      "has_rawPurpurit"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

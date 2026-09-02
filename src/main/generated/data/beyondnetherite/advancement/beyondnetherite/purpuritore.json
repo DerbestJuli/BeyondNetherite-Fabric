@@ -1,0 +1,32 @@
+{
+  "parent": "beyondnetherite:beyondnetherite/rawpurpurit",
+  "criteria": {
+    "has_purpuritOre": {
+      "conditions": {
+        "items": [
+          {
+            "items": "beyondnetherite:purpurit_end_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.beyondnetherite.purpuritOre.discription"
+    },
+    "icon": {
+      "id": "beyondnetherite:purpurit_end_ore"
+    },
+    "title": {
+      "translate": "advancements.beyondnetherite.purpuritOre.titel"
+    }
+  },
+  "requirements": [
+    [
+      "has_purpuritOre"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
