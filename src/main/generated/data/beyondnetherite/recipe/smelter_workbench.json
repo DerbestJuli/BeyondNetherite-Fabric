@@ -3,7 +3,7 @@
   "category": "building",
   "group": "purpurit",
   "key": {
-    "A": "#beyondnetherite:glazed_terracottas",
+    "A": "#minecraft:glazed_terracotta",
     "B": "minecraft:blast_furnace",
     "C": "minecraft:netherite_ingot"
   },

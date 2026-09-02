@@ -1,6 +1,6 @@
-// 26.1.2	-999999999-01-01T00:00:00	BeyondNetherite/Tags for minecraft:item
-eff525670c72b150bedd5fb033ca21e0baa84854 data/beyondnetherite/tags/item/glazed_terracottas.json
+// 26.2	-999999999-01-01T00:00:00	BeyondNetherite/Tags for minecraft:item
 68fba9c2642f4a8fa8ead4b45b087289d299fa99 data/beyondnetherite/tags/item/purpurit.json
+c472c21915630363fdfd21346fb8c236d2ee6f6b data/beyondnetherite/tags/item/purpurit_tools.json
 8639404df743bfed86204ae67da6c6a65e61b67e data/minecraft/tags/item/axes.json
 f8a8ac457393bb93b17d0724295118606187f936 data/minecraft/tags/item/chest_armor.json
 f4c74fc8485559d50a540d788dc72db77e256efb data/minecraft/tags/item/enchantable/armor.json

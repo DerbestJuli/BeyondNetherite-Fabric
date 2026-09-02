@@ -1,0 +1,44 @@
+{
+  "parent": "beyondnetherite:beyondnetherite/fullpurpuritarmor",
+  "criteria": {
+    "kill_with_spear_on_horse": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:equipment": {
+                "mainhand": {
+                  "items": "beyondnetherite:purpurit_spear"
+                }
+              },
+              "minecraft:vehicle": {
+                "minecraft:entity_type": "minecraft:horse"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.beyondnetherite.spearOnHorse.discription"
+    },
+    "frame": "challenge",
+    "icon": {
+      "id": "beyondnetherite:purpurit_spear"
+    },
+    "title": {
+      "translate": "advancements.beyondnetherite.spearOnHorse.titel"
+    }
+  },
+  "requirements": [
+    [
+      "kill_with_spear_on_horse"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

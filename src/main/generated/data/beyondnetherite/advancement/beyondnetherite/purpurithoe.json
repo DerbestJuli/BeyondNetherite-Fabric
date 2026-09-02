@@ -1,0 +1,33 @@
+{
+  "parent": "beyondnetherite:beyondnetherite/purpurit",
+  "criteria": {
+    "has_purpuritHoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "beyondnetherite:purpurit_hoe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.beyondnetherite.purpuritHoe.discription"
+    },
+    "frame": "challenge",
+    "icon": {
+      "id": "beyondnetherite:purpurit_hoe"
+    },
+    "title": {
+      "translate": "advancements.beyondnetherite.purpuritHoe.titel"
+    }
+  },
+  "requirements": [
+    [
+      "has_purpuritHoe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -6,8 +6,7 @@ import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.minecraft.world.item.equipment.ArmorType;
 import java.util.function.Function;
 
@@ -22,13 +21,13 @@ public class ModItems {
     public static final Item PURPURIT_SWORD = registerItem("purpurit_sword",
             props -> new Item(props.sword(ModToolMaterial.PURPURIT, 3.5f, -2.4f)));
     public static final Item PURPURIT_AXE = registerItem("purpurit_axe",
-            props -> new Item(props.axe(ModToolMaterial.PURPURIT, 4.5f, -3.0f)));
+            props -> new AxeItem(ModToolMaterial.PURPURIT, 4.5f, -3.0f, props));
     public static final Item PURPURIT_PICKAXE = registerItem("purpurit_pickaxe",
             props -> new Item(props.pickaxe(ModToolMaterial.PURPURIT, 1, -2.8f)));
     public static final Item PURPURIT_SHOVEL = registerItem("purpurit_shovel",
-            props -> new Item(props.shovel(ModToolMaterial.PURPURIT, -1.5f, -3.0f)));
+            props -> new ShovelItem(ModToolMaterial.PURPURIT, -1.5f, -3.0f, props));
     public static final Item PURPURIT_HOE = registerItem("purpurit_hoe",
-            props -> new Item(props.hoe(ModToolMaterial.PURPURIT, -4.0f, 0.0f)));
+            props -> new HoeItem(ModToolMaterial.PURPURIT, -4.0f, 0.0f, props));
     public static final Item PURPURIT_SPEAR = registerItem("purpurit_spear",
             props -> new Item(props.spear(ModToolMaterial.PURPURIT, 1.2f, 1.3f, 0.3f,
                     2.0f, 8.0f, 4.5f, 5.1f, 7.5f, 4.6f)));

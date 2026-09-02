@@ -36,6 +36,13 @@ public class ModItemTagsProvider extends FabricTagsProvider.ItemTagsProvider {
                 .add(ModItems.PURPURIT_AXE.builtInRegistryHolder().key())
                 .add(ModItems.PURPURIT_SHOVEL.builtInRegistryHolder().key())
                 .add(ModItems.PURPURIT_HOE.builtInRegistryHolder().key());
+        tag(ModTags.Items.PURPURIT_TOOLS)
+                .add(ModItems.PURPURIT_SPEAR.builtInRegistryHolder().key())
+                .add(ModItems.PURPURIT_SWORD.builtInRegistryHolder().key())
+                .add(ModItems.PURPURIT_PICKAXE.builtInRegistryHolder().key())
+                .add(ModItems.PURPURIT_AXE.builtInRegistryHolder().key())
+                .add(ModItems.PURPURIT_SHOVEL.builtInRegistryHolder().key())
+                .add(ModItems.PURPURIT_HOE.builtInRegistryHolder().key());
         //Armor
         tag(ItemTags.HEAD_ARMOR).add(ModItems.PURPURIT_HELMET.builtInRegistryHolder().key());
         tag(ItemTags.CHEST_ARMOR).add(ModItems.PURPURIT_CHESTPLATE.builtInRegistryHolder().key());

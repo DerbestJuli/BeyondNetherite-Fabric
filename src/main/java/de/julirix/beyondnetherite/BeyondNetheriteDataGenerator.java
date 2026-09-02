@@ -29,5 +29,6 @@ public class BeyondNetheriteDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModRecipeProvider::new);
 		pack.addProvider(ModDatapackProvider::new);
 		pack.addProvider((FabricDataGenerator.Pack.Factory<ModEquipmentAssetProvider>) ModEquipmentAssetProvider::new);
+		pack.addProvider(ModAdvancementsProvider::new);
 	}
 }

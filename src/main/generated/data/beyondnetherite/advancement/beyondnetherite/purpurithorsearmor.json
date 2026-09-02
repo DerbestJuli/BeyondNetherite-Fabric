@@ -1,0 +1,39 @@
+{
+  "parent": "beyondnetherite:beyondnetherite/purpurit",
+  "criteria": {
+    "equip_horse_armor": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:horse"
+            }
+          }
+        ],
+        "item": {
+          "items": "beyondnetherite:purpurit_horse_armor"
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.beyondnetherite.purpuritHorseArmor.discription"
+    },
+    "icon": {
+      "id": "beyondnetherite:purpurit_horse_armor"
+    },
+    "title": {
+      "translate": "advancements.beyondnetherite.purpuritHorseArmor.titel"
+    }
+  },
+  "requirements": [
+    [
+      "equip_horse_armor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

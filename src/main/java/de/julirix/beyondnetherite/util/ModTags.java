@@ -22,6 +22,7 @@ public class ModTags {
 
     public static class Items {
         public static final TagKey<Item> PURPURIT = createTag("purpurit");
+        public static final TagKey<Item> PURPURIT_TOOLS = createTag("purpurit_tools");
 
         private static TagKey<Item> createTag(String name) {
             return TagKey.create(Registries.ITEM, BeyondNetherite.id(name));

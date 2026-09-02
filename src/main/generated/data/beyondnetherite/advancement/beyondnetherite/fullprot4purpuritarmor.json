@@ -1,0 +1,26 @@
+{
+  "parent": "beyondnetherite:beyondnetherite/fullpurpuritarmor",
+  "criteria": {
+    "wearing_full_prot4_set": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.beyondnetherite.fullProt4PurpuritArmor.discription"
+    },
+    "frame": "challenge",
+    "icon": {
+      "id": "beyondnetherite:purpurit_chestplate"
+    },
+    "title": {
+      "translate": "advancements.beyondnetherite.fullProt4PurpuritArmor.titel"
+    }
+  },
+  "requirements": [
+    [
+      "wearing_full_prot4_set"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

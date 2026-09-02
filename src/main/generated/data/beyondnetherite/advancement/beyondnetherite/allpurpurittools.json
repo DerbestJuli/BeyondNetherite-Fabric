@@ -1,0 +1,98 @@
+{
+  "parent": "beyondnetherite:beyondnetherite/purpurit",
+  "criteria": {
+    "purpuritAxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "beyondnetherite:purpurit_axe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "purpuritHoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "beyondnetherite:purpurit_hoe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "purpuritPickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "beyondnetherite:purpurit_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "purpuritShovel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "beyondnetherite:purpurit_shovel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "purpuritSpear": {
+      "conditions": {
+        "items": [
+          {
+            "items": "beyondnetherite:purpurit_spear"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "purpuritSword": {
+      "conditions": {
+        "items": [
+          {
+            "items": "beyondnetherite:purpurit_sword"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.beyondnetherite.allPurpuritTools.discription"
+    },
+    "frame": "challenge",
+    "icon": {
+      "id": "beyondnetherite:purpurit_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.beyondnetherite.allPurpuritTools.titel"
+    }
+  },
+  "requirements": [
+    [
+      "purpuritSword"
+    ],
+    [
+      "purpuritAxe"
+    ],
+    [
+      "purpuritPickaxe"
+    ],
+    [
+      "purpuritShovel"
+    ],
+    [
+      "purpuritHoe"
+    ],
+    [
+      "purpuritSpear"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
